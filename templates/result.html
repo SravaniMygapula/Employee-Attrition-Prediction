@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+		@import url('https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap');
+
+		body{
+			
+			background-image: url('/static/h5.jpg');
+			position: relative;
+  			background-repeat: no-repeat;
+  			background-attachment: fixed;
+  			background-size: cover;
+			
+		}
+		.result{
+			background-color: rgba(0,0,0,0.5);
+    			position: absolute;
+    			top: 0;
+    			left: 0;
+    			width: 100%;
+    			height: 100%;
+			display: flex;
+  			position: fixed;
+  			align-items: center;
+  			justify-content: center;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700px;
+			/*text-transform: uppercase;*/
+		}
+	</style>
+
+</head>
+<body>
+<center>
+<div class="result" align="center">
+{% if result==1 %}
+	<h1 style="color: white; align : center">Prediction:<br><br> Yes, He may move out of the company!</h1>
+{% elif result==0 %}
+	<h1 style="color: white; align : center">Prediction:<br><br> No, He is likely to be Staying and work for the company!</h1>
+		
+{% endif %}
+</div>
+</center>
+</body>
+</html>

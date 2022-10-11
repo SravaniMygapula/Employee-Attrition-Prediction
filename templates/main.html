@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<style>
+
+input[type="number"],input[type=password]{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 12px 5px;
+	background:rgba(0,0,0,0.10);
+	outline: none;
+	border:none;
+	border-bottom: 1px dotted #fff;
+	color: #fff;
+	border-radius: 5px;
+	margin: 5px;
+	font-weight: bold;
+}
+input[type=submit]{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 0;
+	margin-top: 30px;
+	outline: none;
+	border:none;
+	background: #60adde;
+	opacity: 0.7;
+	border-radius: 20px;
+	font-size: 20px;
+	color: #fff;
+}
+
+input[type=submit]:hover{
+	background: #003366;
+	opacity: 0.7;
+	
+}
+.forms{
+	max-width: 500px;
+	border-radius: 10px;
+	margin: auto;
+	background-color: rgba(0,0,0,0.8);
+	box-sizing: border-box;
+	padding: 40px;
+	color: #fff;
+	margin-top: 100px;
+}
+body{
+			height: 100%;
+			background-image: url('/static/h7.jpg');
+			position: relative;
+  			background-repeat: no-repeat;
+  			background-attachment: fixed;
+  			background-size: cover;			
+}
+
+</style>
+<head>
+    <title>Bike Usage Model</title>
+</head>
+</body>
+<div class="forms">
+<form action="/main" method="POST">
+  	<h2>Input values:</h2>
+	Age:
+        <input name="age" type="number" placeholder="enter..." required>
+        <br>
+	<br>Business Travel:
+        <input name="businesstravel" type="number" placeholder="enter..." required>
+        <br>
+	<br>DailyRate:
+        <input name="dailyrate" type="number" placeholder="enter..." required>
+        <br>
+	<br> Department:
+        <input name="department" type="number" placeholder="enter..." required>
+        <br>
+	<br>Ditance from home:
+        <input name="distanceformhome" type="number" placeholder="enter..." required>
+        <br>
+	<br> Education:
+        <input name="education" type="number" placeholder="enter..." required>
+        <br>
+	<br> EducationField:
+        <input name="educationfield" type="number" placeholder="enter..." required>
+        <br>
+	<br> EmployeeCount:
+        <input name="employeecount" type="number" placeholder="enter..." required>
+        <br>
+	<br> EnvironmentSatisfaction:
+        <input name="environmentsatisfaction" type="number" placeholder="enter..." required>
+        <br>
+	<br> Gender:
+        <input name="gender" type="number" placeholder="enter..." required>
+        <br>
+	<br> HourlyRate:
+        <input name="hourlyrate" type="number" placeholder="enter..." required>
+        <br>
+	<br> JObInvolvement:
+        <input name="jobinvolvement" type="number" placeholder="enter..." required>
+        <br>
+	<br> JobLevel:
+        <input name="joblevel" type="number" placeholder="enter..." required>
+        <br>
+	<br> JobRole:
+        <input name="jobrole" type="number" placeholder="enter..." required>
+        <br>
+	<br> JobSatisfaction:
+        <input name="jobsatisfaction" type="number" placeholder="enter..." required>
+        <br>
+	<br> MaritalStatus:
+        <input name="maritalstatus" type="number" placeholder="enter..." required>
+        <br>
+	<br> MonthlyRate:
+        <input name="monthlyrate" type="number" placeholder="enter..." required>
+        <br>
+	<br> NUmCompaniesWorked:
+        <input name="numcompaniesworked" type="number" placeholder="enter..." required>
+        <br>
+	<br> OverTime:
+        <input name="overtime" type="number" placeholder="enter..." required>
+        <br>
+	<br> PercentSalaryHike:
+        <input name="percentsalaryhike" type="number" placeholder="enter...." required>
+        <br>
+	<br> PerformanceRating:
+        <input name="performancerating" type="number" placeholder="enter..." required>
+        <br>
+	<br> RelationshipSatisfaction:
+        <input name="relationshipsatisfaction" type="number" placeholder="enter..." required>
+        <br>
+	<br> stockOptionLevel:
+        <input name="stockoptionlevel" type="number" placeholder="enter..." required>
+        <br>
+	<br> TotalWorkingYears:
+        <input name="totalworkingyears" type="number" placeholder="enter..." required>
+        <br>
+	<br> TrainingTimesLastYear:
+        <input name="trainingtimeslastyear" type="number" placeholder="enter..." required>
+        <br>
+	<br> WorkLifeBalance:
+        <input name="worklifebalance" type="number" placeholder="enter..." required>
+        <br>
+	<br> YearsAtCompany:
+        <input name="yearsatcompany" type="number" placeholder="enter..." required>
+        <br>
+	<br> YearsInCurrentRole:
+        <input name="yearsincurrentrole" type="number" placeholder="enter..." required>
+        <br>
+	<br> YearsSinceLastPromotion:
+        <input name="yearssincelastpromotion" type="number" placeholder="enter..." required>
+        <br>
+	<br> YearsWithCurrManager:
+        <input name="yearswithcurrmanager" type="number" placeholder="enter..." required>
+        <br>
+
+        <br>
+        <input type="submit">
+</form>
+</div>
+</body>
+</html>
